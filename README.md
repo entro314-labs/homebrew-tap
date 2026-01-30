@@ -1,15 +1,15 @@
 # GitHerd Homebrew Tap
 
-This is the official Homebrew tap for GitHerd - a concurrent Git repository management tool.
+This is the official Homebrew tap for Git-Herd - a concurrent Git repository management tool.
 
 ## Installation
 
 ```bash
 brew tap entro314-labs/tap
-brew install githerd
+brew install git-herd
 ```
 
-## About GitHerd
+## About Git-Herd
 
 GitHerd performs git operations (fetch/pull) on all git repositories found in the specified directory and its subdirectories.
 
@@ -21,8 +21,8 @@ Features:
 
 ## Repository
 
-- Main Repository: [entro314-labs/Git-Herd](https://github.com/entro314-labs/Git-Herd)
-- Issues: [Report issues here](https://github.com/entro314-labs/Git-Herd/issues)
+- Main Repository: [entro314-labs/Git-Herd](https://github.com/entro314-labs/git-herd)
+- Issues: [Report issues here](https://github.com/entro314-labs/git-herd/issues)
 
 ## License
 
