@@ -3,7 +3,7 @@ cask "git-herd" do
   name "git-herd"
   desc "A concurrent Git repository management tool"
   homepage "https://github.com/entro314-labs/git-herd"
-  version "1.0.7"
+  version "1.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "git-herd" do
 
   on_macos do
     on_intel do
-      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_darwin_amd64.tar.gz"
-      sha256 "b2c86f87a1523312e5fa8ca79fec8d80d9a878edd17e122cec1b946a4efb34fe"
+      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_macOS_x86_64.tar.gz"
+      sha256 "491e934dbd74bb2d03bd140b10c28fa6ca75c62e0abb773917b50cfc0b23ef97"
     end
     on_arm do
-      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_darwin_arm64.tar.gz"
-      sha256 "0ec8cfb8006ecf53dc67d2f2b9b9a9098e67ca9e09fba2f0627233767aa77715"
+      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_macOS_arm64.tar.gz"
+      sha256 "03ef9a2a496aac88e332ffe838de432df20d9b599ca1fdda111df2f9bb09648f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_linux_amd64.tar.gz"
-      sha256 "92e8f9f31e9b2cdc31cc7261c67aa9d52f0349e0895d88e0242e3ac7069b6ad9"
+      url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_linux_x86_64.tar.gz"
+      sha256 "09ca69e97c9984a015eee0a9179554be5e4881380d317528da561b23de179f57"
     end
     on_arm do
       url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_linux_arm64.tar.gz"
-      sha256 "dca41e4ccb93722f9c9095804be352161949a853fdec7e72231b638cc6760cb1"
+      sha256 "2cc319e19c3ab37aa5cd7b655a02d7291e0ee52d37c6d83d54523021543bab0c"
     end
   end
 
