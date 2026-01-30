@@ -14,22 +14,22 @@ cask "git-herd" do
   on_macos do
     on_intel do
       url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_macOS_x86_64.tar.gz"
-      sha256 "491e934dbd74bb2d03bd140b10c28fa6ca75c62e0abb773917b50cfc0b23ef97"
+      sha256 "d54895da3f4b48d93cd93068b7d6fb956c55468e960be1743b2861f34423a186"
     end
     on_arm do
       url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_macOS_arm64.tar.gz"
-      sha256 "03ef9a2a496aac88e332ffe838de432df20d9b599ca1fdda111df2f9bb09648f"
+      sha256 "c87262c0b4a9292be39e12292d2c58764ca634377b454da671de87d7ddf58ed8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_linux_x86_64.tar.gz"
-      sha256 "09ca69e97c9984a015eee0a9179554be5e4881380d317528da561b23de179f57"
+      sha256 "0918b5485046d249c316c77bf0aee33cd006d24950933305be49854a4a935f29"
     end
     on_arm do
       url "https://github.com/entro314-labs/git-herd/releases/download/v#{version}/git-herd_#{version}_linux_arm64.tar.gz"
-      sha256 "2cc319e19c3ab37aa5cd7b655a02d7291e0ee52d37c6d83d54523021543bab0c"
+      sha256 "2396c16af89a41e0ef06c91751a118fe30d1d8cb2cde8ae912f00669a802aa9d"
     end
   end
 
