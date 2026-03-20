@@ -5,7 +5,7 @@ This is the official Homebrew tap for Git-Herd - a concurrent Git repository man
 ## Installation
 
 ```bash
-brew tap entro314-labs/tap
+brew tap entro314-labs/homebrew-tap
 brew install git-herd
 ```
 
