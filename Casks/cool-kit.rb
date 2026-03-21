@@ -3,7 +3,7 @@ cask "cool-kit" do
   name "cool-kit"
   desc "CLI toolkit for Coolify deployments"
   homepage "https://github.com/entro314-labs/cool-kit"
-  version "1.0.1"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "cool-kit" do
   on_macos do
     on_intel do
       url "https://github.com/entro314-labs/cool-kit/releases/download/v#{version}/cool-kit_#{version}_macOS_x86_64.tar.gz"
-      sha256 "0cc474aef071b5c380ba61fd80d5e3f46a423aa91258f01ac990b45638426a71"
+      sha256 "5ef870561f31ae4db5fcc3f29f16d25b42d6f99fbc986c17767aca8d9b3e4e66"
     end
     on_arm do
       url "https://github.com/entro314-labs/cool-kit/releases/download/v#{version}/cool-kit_#{version}_macOS_arm64.tar.gz"
-      sha256 "2046cc41c476fe4e44dafbb9f9636a8426387e95aa0f07ddf619c584c4681591"
+      sha256 "dd5a3b54302df8ee9ea32de25cba264e136fe298f75d75b4c38ae0b426ccac82"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/entro314-labs/cool-kit/releases/download/v#{version}/cool-kit_#{version}_linux_x86_64.tar.gz"
-      sha256 "29da1acbe5e0e7fcbde0bbb2a0d31ac050dad3e0603af82ebcf77d4124844620"
+      sha256 "fee045b74ac67b97245366924b53327f78201748eabc378faa87bf7eace94482"
     end
     on_arm do
       url "https://github.com/entro314-labs/cool-kit/releases/download/v#{version}/cool-kit_#{version}_linux_arm64.tar.gz"
-      sha256 "a7109640a33a3da04d2bd2516ca6634536725b6c8cc7795cce3df56d4b297561"
+      sha256 "fe9bc4e2efd7e5dc519ad6d0cb635c66b501144b66b7e5f6867aaf67ca2c71df"
     end
   end
 
