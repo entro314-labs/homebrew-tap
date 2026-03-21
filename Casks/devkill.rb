@@ -3,7 +3,7 @@ cask "devkill" do
   name "devkill"
   desc "A modern TUI to find and delete heavy dev artifacts across languages and platforms."
   homepage "https://github.com/entro314-labs/devkill"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "devkill" do
   on_macos do
     on_intel do
       url "https://github.com/entro314-labs/devkill/releases/download/v#{version}/devkill_#{version}_macOS_x86_64.tar.gz"
-      sha256 "81ba0facd72db9cc1843f4f04d5a92f2952f42624b8b25d87ac741596dda86e8"
+      sha256 "1e91812ae9ff3e4610a98a89ba877a32438aee02df25530377b6e8ee3e44a37c"
     end
     on_arm do
       url "https://github.com/entro314-labs/devkill/releases/download/v#{version}/devkill_#{version}_macOS_arm64.tar.gz"
-      sha256 "2461b85a625de89f00bded7ae2643d535f6698fd2fbf0b09d7bf81bbac41bd3d"
+      sha256 "102f8a7526c89a71e2db70af5b9d1a6d9e29eac04759418b07563dbcdc6a1591"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/entro314-labs/devkill/releases/download/v#{version}/devkill_#{version}_linux_x86_64.tar.gz"
-      sha256 "540c20dea8e30113ea610e9f75e7989b87d96b7a80f0eb6b7be358028ac10ea2"
+      sha256 "cd8b34c3ad29baf0c51aa357b2b3816ed9ccb409f15a53747f1d7d2b54646766"
     end
     on_arm do
       url "https://github.com/entro314-labs/devkill/releases/download/v#{version}/devkill_#{version}_linux_arm64.tar.gz"
-      sha256 "953b4e35ba2e40a5741035a42f642304b45add0de7b0babc6e0c7e02a5961665"
+      sha256 "d5caf782d59bc8c7c3dcaea7f05d9134604ec6f03d26d7e3f2966796afa7fa64"
     end
   end
 
