@@ -22,7 +22,7 @@ cask "anasa@alpha" do
   # The app ships Tauri's built-in updater, so Homebrew must not
   # downgrade it back to the cask version on `brew upgrade`.
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "anasa.app"
   zap trash: [
